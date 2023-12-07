@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    position: relative;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+}
+
+.input-container {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-container i {
+    position: absolute;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    min-width: 50px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-field {
+    width: calc(100% - 45%);
+    padding: 10px 10px 10px 45px;
+    outline: none;
+    /* border-radius: 10px; */
+}
+
+.input-container i.fa-user {
+    content: '\f007';
+}
+
+.input-container i.fas.fa-weight {
+    content: '\f496';
+}
+
+.input-container i.fas.fa-arrows-alt-v {
+    content: '\f07e';
+}
+
+.input-container i.fas.fa-birthday-cake {
+    content: '\f1fd';
+}
+
+.icon {
+    padding: 10px;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+.error {
+    position: relative;
+    left: 5px;
+    color: #FF0000;
+    margin-left: 3px;
+}
+
+button {
+    width: 135px;
+    height: 45px;
+    border: none;
+    outline: none;
+    left: 75%;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#gray-line {
+    border-top: 1px solid rgb(191 191 191);
+    height: 25px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    margin: auto;
+}
+
+.value {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+footer {
+    position: sticky;
+    background-color: #afafaf;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+}
+
+#sel{
+    width: 150px;
+    height: 40px;
+}
+
+/*700px width for example*/
+
+#sel option {
+    width: 700px; /*default would be inherit*/
+    height: 60px; /*just changed for example*/ 
+}
