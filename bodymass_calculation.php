@@ -62,8 +62,16 @@ if ($gender === "male") {
 </head>
 
 <body>
+    <header>
+        <div class="info">
+            <h1>Body Mass Calculator</h1>
+            <div class="meta">
+                By <a href="https://github.com/twillsonepitech">Thomas Willson</a> and <a
+                    href="https://github.com/Antweneee">Antoine Gavira-Bottari</a>
+            </div>
+        </div>
+    </header>
     <div class="container">
-        <h2>Body Mass Calculator</h2>
         <div id="gray-line"></div>
         <div class="row">
             <span class="label">Name</span>
@@ -103,11 +111,11 @@ if ($gender === "male") {
             <p style="position: relative;bottom: 5px;">Try again !</p>
         </button>
     </div>
-</body>
-<footer>
+    <footer>
     <p>Copyright @2023 | Designed by <a href="mailto:thomas.willson@s.unikl.edu.my">Thomas
             Willson</a> and <a href="mailto:antoine.gavira.bottari@s.unikl.edu.my">Antoine Gavira-Bottari</a></p>
-</footer>
+    </footer>
+</body>
 <script>
     function redirect() {
         window.location.href = 'bodymass.php';

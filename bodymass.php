@@ -14,6 +14,15 @@ session_start();
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
+    <header>
+        <div class="info">
+            <h1>Body Mass Form</h1>
+            <div class="meta">
+                By <a href="https://github.com/twillsonepitech">Thomas Willson</a> and <a
+                    href="https://github.com/Antweneee">Antoine Gavira-Bottari</a>
+            </div>
+        </div>
+    </header>
     <div class="container">
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <?php
@@ -83,7 +92,6 @@ session_start();
             }
             ?>
 
-            <h2>Body Mass Form</h2>
             <div id="gray-line"></div>
             <div class="input-container">
                 <i class="fa fa-user icon"></i>
@@ -139,10 +147,10 @@ session_start();
             </button>
         </form>
     </div>
-</body>
-<footer>
+    <footer>
     <p>Copyright @2023 | Designed by <a href="mailto:thomas.willson@s.unikl.edu.my">Thomas
             Willson</a> and <a href="mailto:antoine.gavira.bottari@s.unikl.edu.my">Antoine Gavira-Bottari</a></p>
-</footer>
+    </footer>
+</body>
 
 </html>

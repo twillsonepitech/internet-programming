@@ -15,6 +15,15 @@ session_start();
 </head>
 
 <body>
+    <header>
+        <div class="info">
+            <h1>Bus Departure Form</h1>
+            <div class="meta">
+                By <a href="https://github.com/twillsonepitech">Thomas Willson</a> and <a
+                    href="https://github.com/Antweneee">Antoine Gavira-Bottari</a>
+            </div>
+        </div>
+    </header>
     <div class="container">
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <?php
@@ -51,7 +60,6 @@ session_start();
             }
             ?>
 
-            <h2>Bus Departure Form</h2>
             <div id="gray-line"></div>
             <div class="input-container">
                 <p><b>Departure day :</b>
@@ -85,10 +93,11 @@ session_start();
             </button>
         </form>
     </div>
+    <footer>
+        <p>Copyright @2023 | Designed by <a href="mailto:thomas.willson@s.unikl.edu.my">Thomas
+                Willson</a> and <a href="mailto:antoine.gavira.bottari@s.unikl.edu.my">Antoine Gavira-Bottari</a></p>
+    </footer>
+
 </body>
-<footer>
-    <p>Copyright @2023 | Designed by <a href="mailto:thomas.willson@s.unikl.edu.my">Thomas
-            Willson</a> and <a href="mailto:antoine.gavira.bottari@s.unikl.edu.my">Antoine Gavira-Bottari</a></p>
-</footer>
 
 </html>

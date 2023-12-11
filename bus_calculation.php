@@ -78,8 +78,16 @@ $schedule = [
 </head>
 
 <body>
+    <header>
+        <div class="info">
+            <h1>Bus Departure Calculator</h1>
+            <div class="meta">
+                By <a href="https://github.com/twillsonepitech">Thomas Willson</a> and <a
+                    href="https://github.com/Antweneee">Antoine Gavira-Bottari</a>
+            </div>
+        </div>
+    </header>
     <div class="container">
-        <h2>Bus Departure Calculator</h2>
         <div id="gray-line"></div>
         <div class="row">
             <span class="label">Day</span>
@@ -97,11 +105,11 @@ $schedule = [
             <p style="position: relative;bottom: 5px;">Book again !</p>
         </button>
     </div>
-</body>
-<footer>
+    <footer>
     <p>Copyright @2023 | Designed by <a href="mailto:thomas.willson@s.unikl.edu.my">Thomas
             Willson</a> and <a href="mailto:antoine.gavira.bottari@s.unikl.edu.my">Antoine Gavira-Bottari</a></p>
-</footer>
+    </footer>
+</body>
 <script>
     function redirect() {
         window.location.href = 'bus.php';
